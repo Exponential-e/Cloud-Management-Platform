@@ -7,7 +7,7 @@
 # ========================================================================
 
 $apiKey = "add VM apiKey here"
-$applianceUrl = "https://multicloud.exponential-e.com/""
+$applianceUrl = "https://multicloud.exponential-e.com/"
 
 $client = New-Object System.Net.WebClient
 $client.DownloadFile($applianceUrl + "/msi/morpheus-agent/MorpheusAgentSetup.msi", "C:\Program Files (x86)\Common Files\MorpheusAgentSetup.msi")
